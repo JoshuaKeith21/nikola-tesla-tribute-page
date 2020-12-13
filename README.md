@@ -55,9 +55,10 @@
       <img src="images/nikola_tesla_portrait2.JPG" alt="nikola tesla portrait number 2" id="img" style="width:100%">
       </div>
 
-    <div class="row"
+    <div class="row">
     <div class="column">
           <img src="images/nikola_tesla_electric.jpg" alt="Nikola Tesla lightning electric image" id="img" style="width:100%">
+          </div>
           </div>
     <div class="row">
     <div class="column">
