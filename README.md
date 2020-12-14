@@ -1,3 +1,1 @@
-# nikola-tesla-tribute-page
-A Nikola Tesla tribute page
-Enjoy!!
+https://joshuakeith21.github.io/nikola-tesla-tribute-page/index.html
