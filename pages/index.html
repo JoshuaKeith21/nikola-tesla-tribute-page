@@ -1,103 +1,45 @@
 <!DOCTYPE html>
 
 <html>
-
-<meta chartset="UTF-8"
-default-src 'self';
-script-src 'report-sample' 'self';
-style-src 'report-sample' 'self';
-object-src 'none';
-base-uri 'self';
-connect-src 'self';
-font-src 'self';
-frame-src 'self';
-img-src 'self' data:;
-manifest-src 'self';
-media-src 'self';
-report-uri https://5fd7f39147ef7c02ddc120ba.endpoint.csper.io/;
-worker-src 'none';>
-
-<head>
-  <title>Nikola Tesla</title>
-</head>
-
-  <style>
-
-    .content {
-      max-width: 700px;
-      margin:auto;
-
-    }
-    .img-container{
-      text-align: center;
-    }
-    img {
-      width: 50%;
-      height: auto;
-
-    }
-
-    .row {
-      display: flex;
-    }
-
-    .column {
-      flex: 25%;
-      padding: 5px;
-    }
-
-    #img-caption {
-      font-size: 20px;
-    }
-
-
-</style>
-
+  <meta chartset="UTF-8">
+  <link rel='stylesheet' href='../css/style.css'>
+  <head>
+    <title>Nikola Tesla</title>
+  </head>
   <body>
-
     <div id="main" class="content" style="padding:20px; width:auto; height:auto; background:#ff02ff; display:block; border-radius: 25px;">
-     <h1 id="title" class="img-container"><u> Nikola Tesla</u> </h1>
-
-  <div id= "img-div" class="img-container">
-    <div class="row">
-
-    <div class="column">
-        <img src="images/nikola_tesla_portrait.jpg"
-        alt="Nikola Tesla portrait" id="img" style="width:100%">
+      <h1 id="title" class="img-container"><u> Nikola Tesla</u></h1>
+      <div id= "img-div" class="img-container">
+        <div class="row">
+          <div class="column">
+            <img src="../images/nikola_tesla_portrait.jpg"
+            alt="Nikola Tesla portrait" id="img" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="../images/nikola_tesla_portrait2.jpg" alt="nikola tesla portrait number 2" id="img" style="width:100%">
+          </div>
+        </div>
+        <div class="row"
+          <div class="column">
+            <img src="../images/nikola_tesla_vivid.jpg" alt="Nikola Tesla tribute painting" id="img"style="width:100%">
+          </div>
         </div>
 
-    <div class="column">
-      <img src="images/nikola_tesla_portrait2.jpg" alt="nikola tesla portrait number 2" id="img" style="width:100%">
-      </div>
+        <p id="img-caption"><em>World famous inventor</em></p>
 
-    <div class="row"
-    <div class="column">
-          <img src="image/nikola_tesla_electric.jpg" alt="Nikola Tesla lightning electric image" id="img" style="width:100%">
+        <div id="tribute-info" class="content">
+          <div style="padding:20px; width:auto; height:auto; background:#dda0dd; display:block; border-radius: 25px;">
+            <p>Nikola Tesla was an engineer and scientist known for designing the
+            alternating-current (AC) electric system, which is the predominant
+            electrical system used across the world today. He also created the
+            "Tesla coil," which is still used in radio technology.</p>
           </div>
-    <div class="row">
-    <div class="column">
-      <img src="images/nikola_tesla_vivid.jpg" alt="Nikola Tesla tribute painting" id="img"style="width:100%">
-      </div>
+        </div>
+        <div class="content">
+          <p>To learn more about Nikola Tesla
+            <a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank" id="tribute-link">Click Here</a>
+          </p>
+        </div>
     </div>
-    </div>
-
-    <p id="img-caption"><em>World famous inventor</em></p>
-    </div>
-    <div id="tribute-info" class="content">
-      <div style="padding:20px; width:auto; height:auto; background:#dda0dd; display:block; border-radius: 25px;">
-        <p>Nikola Tesla was an engineer and scientist known for designing the
-        alternating-current (AC) electric system, which is the predominant
-        electrical system used across the world today. He also created the
-        "Tesla coil," which is still used in radio technology.</p>
-      </div>
-    </div>
-
-    <div class="content">
-    <p>To learn more about Nikola Tesla
-    <a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank" id="tribute-link">
-    Click Here</a>
-  </p>
-</div>
-</div>
-</body>
+  </body>
 </html>
