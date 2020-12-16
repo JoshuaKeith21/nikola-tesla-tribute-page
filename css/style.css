@@ -19,6 +19,19 @@ img {
   padding: 5px;
 }
 
+.AllWidth {
+  width: 100%;
+}
+
+.imageStuff {
+  padding:20px;
+  width: auto;
+  height: auto;
+  background: #ff02ff;
+  display: block;
+  border-radius: 25px;
+}
+
 #img-caption {
   font-size: 20px;
   text-align: center;
